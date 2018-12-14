@@ -26,9 +26,9 @@ if(isset($_POST["Submit"]) && $_POST["Submit"] == "注册")
 
         {
 
-            mysqli_connect("localhost","root","ROOT");
+           $link = mysqli_connect("localhost","root","ROOT");
 
-            mysqli_select_db("注册信息");
+            mysqli_select_db("注册信息",$link);
 
             mysqli_query("set names 'gdk'");
 
