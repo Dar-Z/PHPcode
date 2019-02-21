@@ -1,0 +1,134 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Login</title>  
+    <style type="text/css">
+     
+body{   
+    width: 100%;   
+    height: 100%;   
+    font-family: Simsun;   
+    margin: 0;   
+     background-size: cover; 
+}   
+ h1{
+color: white;
+font-family: "楷体";
+font-size: 100px;
+position: absolute;
+left: 725px;
+top: 100px;
+ }
+
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 15px;   
+    color: #fff;   
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid "balck";   
+    border-left: 1px solid "balck";   
+    border-right: 1px solid "balck";   
+    border-bottom: 1px solid "balck";   
+    border-radius: 25px;   
+    background:none;   
+    font-family: Simsun;
+}   
+.user
+{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+.ps
+{
+    position: absolute;
+    top: 450px;
+    left: 700px;
+}
+.login{   
+    width: 100px;   
+    min-height: 20px;   
+    display: block;   
+    background:none;   
+    border: 1px solid "blcak";   
+    color: white;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 25px;   
+    margin: 0;   
+ font-family: Simsun;
+ position: absolute;
+ top: 500px;
+ left: 700px;
+} 
+.checkin{
+    width: 100px;   
+    min-height: 20px;   
+    display: block;   
+      
+    border: 1px solid "blcak";   
+    color: white;
+    background: none;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 25px;   
+    margin: 0;
+    position: absolute;
+   top: 500px;
+   left: 900px;
+    font-family: Simsun;
+} 
+.ad{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    border:solid;
+    border-bottom: none;
+    position: absolute;
+    top: 350px;
+    left: 870px;
+    font-family: "楷体";
+    color: white;
+    opacity: 0.8;
+}
+.userlog
+{
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   border:solid;
+   border-bottom: none;
+    position: absolute;
+    top: 350px;
+    left: 720px;
+    font-family: "楷体";
+    color: white;
+    opacity: 0.8;
+    
+}
+
+    </style> 
+
+
+</head>  
+<body background="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549706523520&di=d2111c28604ddde5e6e6e7b662090ee4&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0114d557766bc10000012e7efe7b21.jpg%401280w_1l_2o_100sh.jpg" >  
+    
+        <h1>Login</h1>  
+        <form method="post" action="logincheck.php">  
+            <input class="user"type="text"  placeholder="用户名" name="username"></input>  
+            <input class="ps"type="password"  placeholder="密码" name="password"></input>  
+            <button class="login" type="submit" name = "submit" value="登录">登录</button>
+            <button class="checkin" href="register.html">注册</button>  
+            <a class="ad" href="admin.html">AdminLogin</a>
+            <a class="userlog" href="login.html">UserLogin</a>
+        </form>  
+    
+</body>  
+</html>  

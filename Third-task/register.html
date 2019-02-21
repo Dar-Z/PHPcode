@@ -1,0 +1,95 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Login</title>  
+    <style type="text/css">
+        html{   
+    width: 100%;   
+    height: 100%;   
+    overflow: hidden;   
+    font-style: sans-serif;   
+}   
+body{   
+    width: 100%;   
+    height: 100%;   
+    font-family: Simsun;   
+    margin: 0;   
+     background-size: cover; 
+}   
+#login{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;   
+    margin: -150px 0 0 -150px;   
+    width: 300px;   
+    height: 300px;   
+}   
+#login h1{   
+    color: #fff;   
+    text-shadow:0 0 10px;   
+    letter-spacing: 1px;   
+    text-align: center;   
+}   
+h1{   
+    font-size: 2em;   
+    margin: 0.67em 0;   
+}   
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 15px;   
+    color: #fff;   
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid "balck";   
+    border-left: 1px solid "balck";   
+    border-right: 1px solid "balck";   
+    border-bottom: 1px solid "balck";   
+    border-radius: 25px;   
+    background:none;   
+    font-family: Simsun;
+}   
+input.register{
+  width: 200px;   
+    height: 30px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 20px;   
+    color: "black";   
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid "balck";   
+    border-left: 1px solid "balck";   
+    border-right: 1px solid "balck";   
+    border-bottom: 1px solid "balck";   
+    border-radius: 25px;   
+    background:none;   
+    font-family: Simsun;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    padding-top:2px; 
+}
+
+
+
+    </style> 
+
+
+</head>  
+<body background="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549706523520&di=d2111c28604ddde5e6e6e7b662090ee4&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0114d557766bc10000012e7efe7b21.jpg%401280w_1l_2o_100sh.jpg" >  
+    <div id="login">  
+        <h1>Register</h1>  
+        <form method="post" action="registercheck.php">  
+            <input type="text" required="required" placeholder="用户名" name="username"></input>  
+            <input type="password" required="required" placeholder="密码" name="password"></input>
+            <input type="password" required="required" placeholder="确认密码" name="confirm"></input>   
+           
+            <input class ="register"type="submit" required="required"name="submit"value="注册">   
+        </form>  
+    </div>  
+</body>  
+</html>  
